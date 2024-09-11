@@ -1,2 +1,2 @@
 # MediTro-Hospital
-(in Progress now) Hospital Website build by HTML, CSS, JavaScript, Bootstrap, and React.js,
+(in Progress now) A Website built by HTML, CSS, JavaScript, Bootstrap, and React.js,
