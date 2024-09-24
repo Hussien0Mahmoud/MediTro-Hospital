@@ -1,0 +1,134 @@
+
+.heading-work {
+    text-align: center;
+}
+.heading-work h5 {
+    background-image: url(../../assets/About-Images/bgc-home-about1.png);
+    background-position: 50%;
+    background-repeat: repeat;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.3;
+    color: var(--orange-color);
+}
+.heading-work h2 {
+        color: #1f2278;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.4;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 10px auto 40px;
+    }
+
+.works {
+background-color: #fbfbfb;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.works .work-box {
+    border: 1px solid #f17732;
+    border-radius: 8px;
+    padding: 50px  35px;
+    background-color: #fff;
+    margin-top: 60px;
+    /* text-align: center; */
+}
+.works .work-box .work-num {
+    -webkit-text-stroke: 2px var(--orange-color);
+    color: transparent;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    margin-bottom: 30px;
+    text-shadow: 0 10px 0 #ffe3d3;
+    transition: all .5s;
+}
+.works .work-box .work-content h3 {
+    color: var(--orange-color);
+    font-weight: 600;
+    font-size: 30px;
+}
+.works .work-box .work-content p {
+    color: #606060;
+    font-weight: 200;
+    font-size: 20px;
+    /* margin-bottom: 45px; */
+}
+.works .work-box  button {
+    background-color: #e1e2f6;
+    border: 1px solid #e1e2f6;
+    color: var(--main-color);
+    /* height: 50px;
+    width: 150px; */
+    text-transform:uppercase ;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px 5px 10px 25px;
+    margin-top: 25px;
+}
+.works .work-box button span {
+    background-color: #fff;
+    color: var(--main-color);
+    width: 40px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 25px;
+    border-radius: 4px;
+    font-size:18px;
+}
+
+.works  .fixed-color {
+    background-color: var(--orange-color);
+    margin-top: 0;
+}
+.works  .fixed-color .work-content h3,
+.works  .fixed-color .work-content p {
+    color: #fff;
+}
+
+.works .fixed-color button {
+    background-color: #fff;
+    color: var(--orange-color);
+}
+.works .fixed-color button span {
+    background-color: var(--orange-color);
+    color: #fff;
+}
+
+.works  .fixed-color .work-num {
+    -webkit-text-stroke: 2px #fff;
+    text-shadow:none;
+}
+
+.works .work-box:hover {
+    background-color: var(--orange-color);
+    /* background: linear-gradient(to top, #f17732,#f17732); */
+}
+.works .work-box:hover .work-num {
+    -webkit-text-stroke: 2px #fff;
+    text-shadow:none;
+}
+.works .work-box:hover .work-content h3,
+.works .work-box:hover .work-content p {
+    color: #fff;
+}
+.works .work-box:hover button {
+    background-color: #fff;
+    color: var(--orange-color);
+}
+.works .work-box:hover button span {
+    background-color: var(--orange-color);
+    color: #fff;
+}
+
+
+
+
+

@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Tajawal", sans-serif;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color :#1F2278;
+  --orange-color : #f17732;
+  --btn-color:#565acf;
+}
+section {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none !important;
+}
+span {
+  display: block;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+button {
+  text-align: center;
+  
+}

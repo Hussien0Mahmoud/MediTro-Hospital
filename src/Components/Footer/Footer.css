@@ -1,0 +1,208 @@
+footer {
+    background-image: url(../../assets/Footer-Images/footer.bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    /* border-top-left-radius: 100%; */
+    overflow: hidden;
+}
+footer .footerlogo {
+    width: auto;
+    height: 45px;
+    margin: 15px 0px;
+}
+footer p {
+    margin-top: 10px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+footer .footer-contact {
+    display: flex;
+}
+footer .footer-contact .footer-icon {
+    margin: 5px 20px 0 0;
+    width: 60px;
+    height: 60px;
+    background-color: var(--orange-color);
+    line-height: 60px;
+    border: 1px solid var(--orange-color);
+    box-sizing: border-box;
+    text-align: center;
+    border-top-right-radius: 30px;
+    /* border-bottom-right-radius: 20px; */
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+footer .footer-contact .footer-icon svg{
+    color: #fff;
+}
+footer .footer-contact h6 {
+    color: var(--orange-color);
+    margin-bottom: 12px;
+    font-size:larger;
+}
+footer .footer-contact h4 {
+    color: var(--main-color);
+    font-size: 25px;
+}
+footer h2 {
+    margin: 15px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+footer h2::after {
+    background-image:url(../../assets/Footer-Images/bgc-h.png) ;
+    background-repeat: repeat;
+    /* bottom: -15px; */
+    top: 40px;
+    content: "";
+    height: 9px;
+    left: 0;
+    position: absolute;
+    width: 120px;
+}
+footer ul {
+    /* margin-top: 35px; */
+    padding-top: 10px;
+}
+footer ul li {
+    margin-top: 10px;
+}
+footer ul li a {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+footer ul li a:hover {
+    color: var(--btn-color);
+}
+footer form {
+    margin: 15px 0px;
+    background:none
+}
+
+footer form input {
+    width: 60%;
+    /* border: 1px solid #ccc; */
+    border: 1px solid #fff;;
+    background-color: #fff;
+    margin: 20px 0;
+    height: 45px;
+    border-radius: 6px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+footer form input:hover {
+    border: 1px solid var(--main-color); 
+}
+footer form button {
+    width: 60%;
+    background-color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    height: 45px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+footer form button:hover {
+    opacity: .7;
+}
+footer .social {
+    /* margin-left:0px !important; */
+}
+footer .social li {
+    display: inline;
+    margin-right: 20px;
+    /* left:0px !important; */
+
+}
+footer .social li img:hover {
+    width: 30px;
+    height: 30px;
+}
+footer .footer-bottom {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 25px 0;
+    border-top: 1px solid #ccc;
+}
+footer .footer-bottom span {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+footer .footer-bottom span a {
+    color: var(--orange-color);
+}
+footer .footer-bottom span a:hover {
+    color: var(--main-color);
+    /* font-size: 22px; */
+}
+@keyframes mover1 {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes mover2 {
+    0% {
+        transform: translatex(-10px);
+    }
+    100% {
+        transform: translatex(0px);
+    }
+}
+@keyframes mover3 {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(180deg);;
+    }
+}
+
+@keyframes mover4 {
+        from {
+            transform: rotate(0deg);
+        } to {
+            transform: rotate(360deg);
+        }
+    }
+footer  .shape9 {
+    position: absolute;
+    /* bottom: -5px; */
+    top: 75%;
+    right: 95%;
+    /* left: -25%; */
+    width: 80px;
+    animation: mover1 1.5s infinite alternate;
+}
+footer  .shap10 {
+    position: absolute;
+    /* bottom: 5px;
+    left: 0%; */
+    /* right: -10%; */
+
+    animation: mover2 1s infinite alternate;
+}
+footer  .shap10 img {
+    width: 90px;
+}
+footer  .shape11 {
+    position: absolute;
+    top: 25px;
+    left: 95%;
+    width: 90px;
+    /* transform: rotate(180deg);
+    transition: transform .3s ease all; */
+    animation: mover4 4s infinite ;
+}

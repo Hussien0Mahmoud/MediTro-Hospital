@@ -1,0 +1,145 @@
+
+.section-2 {
+    background-color: #eeeeee63;
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+}   
+.section-2 .booking-form {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    padding: 40px 35px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
+.section-2 .booking-form .title h3 {
+    color: #1f2278;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.3;
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+.section-2 .booking-form  form{
+    position: relative;
+    
+}
+.section-2 .booking-form  form::after {
+        border: 2px solid #565acf;
+    border-radius: 40px;
+    content: "";
+    height: 100%;
+    left: -20px;
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    z-index: -1;
+
+        margin: 0;
+    padding: 0;
+}
+
+.section-2 .booking-form .form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+.section-2 .booking-form .form-group .form-control {
+    border: 1px solid rgba(86, 90, 207, .3);
+    border-radius: 8px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+}
+
+/* .row {
+    background-color: #1f2278 !important;
+}
+.booking-content {
+        padding-bottom: 70px;
+        padding-top: 70px;
+        position: relative;
+        
+        background-color:rebeccapurple;
+}
+.booking-content .appointment-form {
+    background-color: #f6f6f6;
+    border-radius: 40px;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    padding: 40px 35px;
+    position: relative;
+    
+}
+.appointment-form h3 {
+    color: #1f2278;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.3;
+    font-size: 28px;
+    font-weight: 700;
+} */
+
+/* 
+.booking-content::after {
+    
+    left: -20px;
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    z-index: -1;
+}
+form {
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+}
+form::after{
+        
+}
+form .form-control {
+    border: none;
+}
+form input,
+form textarea,
+form select,
+form select option {
+    width: 100%;
+    max-width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-size: 17px;
+}
+form select {
+    max-width: 96%;
+    margin-left: 10px;
+}
+form textarea {
+    height: 130px;
+}
+form input:hover,
+form textarea:hover,
+form select:hover
+{
+border: 1px  solid var(--btn-color);
+transition: .2s ease-in-out;
+background-color: #f6f6f6;
+}
+form button {
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--orange-color) !important;
+    border: 1px solid var(--orange-color) !important;
+    border-radius: 6px;
+    font-weight: 500 !important;
+    height: 60px;
+}
+form button:hover {
+    opacity: .7;
+} */

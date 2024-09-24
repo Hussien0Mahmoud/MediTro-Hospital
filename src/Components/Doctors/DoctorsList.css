@@ -1,0 +1,67 @@
+/* .row {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 30px 0 ;
+} */
+.row .heading h2 {
+    color: #1F2278;
+    font-size: 50px;
+    font-weight: 600;
+    /* border-left: 2px solid var(--orange-color);
+    border-right: 2px solid var(--orange-color);
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0; */
+}
+.doctors-team {
+    background-color: #fff;
+}
+.doctors-team .doctor-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin: 40px 4px 0px;
+    height: auto;
+    width: 90%;
+    padding: 20px 0;
+}
+.doctors-team .doctor-card img{
+    width: 70% ;
+    align-items: center !important;
+    text-align: center !important;
+    margin: 10px auto;
+    border-radius: 40px;
+}
+
+.doctors-team .doctor-card h2 {
+    color: #1F2278;
+    font-size: 30px;
+    font-weight: 600;
+}
+.doctors-team .doctor-card p {
+    color: var(--orange-color);
+    font-size: 20px;
+    font-weight: 300;
+}
+.doctors-team .doctor-card button {
+    /* height: 40px ; */
+    background-color: var(--btn-color);
+    font-size: 20px;
+}
+/* .doctors-team .doctor-card::before {
+    background-image: url(../../assets/Doctors-Images/bgc-circle.png);
+    background-size: 97%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    content: "";
+    height: 100%;
+    left: 50%;
+    opacity: .2;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: all .5s;
+    width: 100%;
+    z-index: -1;
+} */

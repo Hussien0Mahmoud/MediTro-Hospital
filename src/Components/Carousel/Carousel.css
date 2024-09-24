@@ -1,0 +1,38 @@
+.carousel-item {
+  background-color: var(--orange-color);
+  color: white;
+  font-size: 25px;
+  font-weight: 600px;
+  text-align: center;
+  padding: 50px 0;
+  height: 250px;
+  border-radius: 15px;
+  /* align-items: center;
+  align-content: center; */
+  
+}
+.carousel-caption {
+  color: #fff;
+  font-weight: 800px;
+  font-size: 35px;
+  margin: auto 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: white;
+  font-weight: 600px;
+}
+
+
+.carousel-container {
+    background-image: url(../../assets/carousel-imgs/bgc-carousel.png);
+    background-repeat: repeat;
+    height: 450px;
+    align-items: center;
+  align-content: center;
+
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* padding: 20px auto; */
+    
+}

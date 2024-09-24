@@ -1,0 +1,239 @@
+
+/* contact-container {
+    background-color:#f1f0f091 ;
+} */
+/* .container-fluid {
+    background-color:#f1f0f091 ;
+} */
+ .contact-container {
+    background-color: #f5f5f5 ;
+ }
+ .form-container {
+    background-color: #fff ;
+}
+.contact-us {
+    
+    background-color: #f5f5f5 !important;
+    width: 80%;
+    align-content: center;
+    background-color: #fff;
+    margin: auto;
+    padding: 50px 20px;
+    border-radius: 12px;
+    /* position: absolute; */
+}
+
+form {
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+}
+form .form-control {
+    border: none;
+}
+.form-container{
+    border-radius: 50px;
+}
+contact-background{
+    background-color:#fbfbfc ;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    max-width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-size: 17px;
+}
+form select {
+    max-width: 96%;
+    margin-left: 10px;
+}
+form textarea {
+    height: 130px;
+    
+}
+form input:hover,
+form textarea:hover,
+form select:hover
+ {
+border: 1px  solid var(--btn-color);
+transition: .2s ease-in-out;
+background-color: #f6f6f6;
+}
+form button {
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--orange-color) !important;
+    border: 1px solid var(--orange-color) !important;
+    border-radius: 6px;
+    font-weight: 500 !important;
+    height: 60px;
+}
+form button:hover {
+    opacity: .7;
+}
+
+.side {
+    background-image: url(../../assets/Contact-Images/bgc-1.jpg);
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    max-width: 100%;
+    /* margin-top: 28px; */
+    color: white;
+    
+}
+.side .overlay {
+    background-color: #565acf;
+    opacity: .9;
+    height: 100%;
+    color: white !important;
+    padding: 25px 25px 25px 35px;
+    border-radius: 8px;
+}
+.side .overlay hr {
+    width: 70%;
+}
+.side .overlay h3 {
+    width: 70%;
+    height: auto;
+    font-size: 35px;
+    font-weight: 500;
+}
+.side .overlay li {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.side .overlay li svg {
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.side .overlay p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 70%;
+}
+
+.side .overlay .social svg {
+    color: #565acf;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 15px;
+    
+    /* line-height: 40px; */
+    text-align: center;
+    margin-right: 15px;
+    padding: 10px;
+}
+.side .overlay .social svg:hover {
+    background-color: var(--orange-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* contact boxs */
+.Contact-boxs {
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
+.Contact-boxs .boxs {
+    background-color: #fff;
+    border: 1px solid red !important;
+    border-radius: 18px;
+    /* box-shadow: 0 5px 30px 0 rgba(31, 34, 120, .08); */
+    overflow: hidden;
+    padding: 45px 35px 35px;
+    z-index: 1;
+}
+.Contact-boxs .boxs img {
+    height: 50px;
+    max-width: 100%;
+    vertical-align: middle;
+    width: auto;
+    position: relative;
+    /* background-color: #f8f0ff;
+    border-radius: 70%; */
+}
+.Contact-boxs .box1 img::after {
+    background-color: red;
+    border-radius: 50%;
+    content: "";
+    height: 65px;
+    position: absolute;
+    right: -22px;     
+    top: -18px;
+    width: 65px;
+    z-index: -1;
+}
+.Contact-boxs .boxs h4 {
+        color: #1f2278;
+    margin: 18px 0 12px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.3;
+        font-size: 25px;
+    font-weight: 600;
+}
+.Contact-boxs .boxs p{
+    font-family: Montserrat, sans-serif;
+    line-height: 1.3;
+        font-size: 20px;
+}
+.Contact-boxs  .box1 {
+    /* border: 1px solid #e2c4ff !important; */
+        /* border-color: #e2c4ff; */
+    border: 1px solid #e2c4ff !important;
+    /* background-color:#fbf5ff 
+    ; */
+    
+}
+.Contact-boxs .box2 {
+    border: 1px solid #ffbdbc !important;
+    border-color: #ffbdbc;
+}
+.Contact-boxs  .box3 {
+    border: 1px solid #a4fcc4 !important;
+    border-color: #a4fcc4;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .test {
+    background-color: #ccc;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 33%;
+    left: 36%;
+    margin-bottom: 150px;
+} */
+
+
+
+
+
+
+
+
+
+
+
